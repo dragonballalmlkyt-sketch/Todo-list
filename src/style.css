@@ -1,0 +1,41 @@
+.App div button {
+    background-color: #ebeceb;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.App div button:hover {
+    background-color: #d6d6d6;
+}
+
+
+.adding-container button:hover {
+    background-color: #034892 !important;
+}
+
+.task-item div button:hover {
+    background-color: #cbd2da !important;
+}
+
+
+
+@media (max-width: 600px) {
+    .task-item {
+        width: 90% !important;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+    .task-item {
+        width: 70% !important;
+    }
+}
