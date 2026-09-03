@@ -23,7 +23,7 @@ function App() {
 
     // we will use context api to pass the state and setState function to the child components so that we can access the state and setState function in the child components without prop drilling
     <TaskContext.Provider value={{ taskList, setTaskList }}>
-    <div className="App">
+    <div className="App" style={{ maxHeight: '90vh', overflowY: 'scroll'}}>
       <h1>My Task List</h1>
       <hr />
       <div style={{ display: 'flex', direction: 'row', gap: '10px', marginTop: '20px', width: '100%',textAlign: 'center', justifyContent: 'center' }}>
