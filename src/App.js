@@ -48,7 +48,7 @@ function App() {
       <Route path="/Completed" element={<CompletedTasks />} />
       <Route path="/Pending" element={<PendingTasks />} />
       <Route path="/update/:id" element={<UpdatePage />} />
-      <Route path="*" element={<h1 style={{ textAlign: 'center', marginTop: '50px' }}>404 Not Found</h1>} />
+      <Route path="*" element={<AllTasks />} />
     </Routes>
 
     </div>
